@@ -1,0 +1,28 @@
+.wrapper{
+    width: 100vw;
+    height: 8vh;
+    background: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.insideWrapper{
+    width: 98%;
+    height: 100%;
+    background: green;
+    display: flex;
+    justify-content: space-between;
+    
+    .leftPart{
+        width: 30%;
+        height: 100%;
+        background: yellow;
+    }
+
+    .rightPart{
+        width: 30%;
+        height: 100%;
+        background: orange;
+    }
+}
